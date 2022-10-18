@@ -7,17 +7,11 @@ public class TimesTable {
         System.out.print("What times table would you like? :");
         // int timesTable = reader.nextInt();
         int timesTable = Integer.parseInt(reader.nextLine());
-        // Get a number to go up to from user
-        System.out.print("How high would you like to go? :");
-        // int howHigh = reader.nextInt();
-        int howHigh = Integer.parseInt(reader.nextLine());
         // Starting number variable
         int i;
-        for (i = 1; i <= howHigh; i++) {
-            // Do the Maths
-            int sum = i * timesTable;
+        for (i = 0; i <= 12; i++) {
             // Print out results to user
-            System.out.println(i + " * " + timesTable + " = " + sum);
+            System.out.println(i + " * " + timesTable + " = " + (i * timesTable));
         }
 
     }
