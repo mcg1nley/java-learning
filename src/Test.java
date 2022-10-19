@@ -2,14 +2,18 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
+        Scanner readinput = new Scanner(System.in);
 
-        System.out.print("Input a number to sum to: ");
-        int sumTo = reader.nextInt();
+        String enterkey = "Why do fathers take an extra pair of socks when they go golfing?";
+        System.out.print(enterkey);
 
-        int squareRoot = sumTo * sumTo;
+        enterkey = readinput.nextLine();
+        System.out.print(enterkey);
 
-        System.out.print(squareRoot);
+        if (enterkey.equals("")) {
+
+            System.out.println("In case they get a hole in one!");
+        }
 
     }
 

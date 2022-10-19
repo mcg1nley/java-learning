@@ -1,11 +1,14 @@
-public class WhileLoop {
+package Week02;
+
+public class DoWhileLoop {
     public static void main(String[] args) {
         int x = 0;
-        while (x < 20) {
+        do {
+
             System.out.print("value of x : " + x);
             x++;
             System.out.print("\n");
-        }
+        } while (x < 20);
 
     }
 }

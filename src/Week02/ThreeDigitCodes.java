@@ -1,3 +1,5 @@
+package Week02;
+
 public class ThreeDigitCodes {
     public static void main(String[] args) {
         int combinations = 0;
