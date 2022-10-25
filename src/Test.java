@@ -2,18 +2,13 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner readinput = new Scanner(System.in);
-
-        String enterkey = "Why do fathers take an extra pair of socks when they go golfing?";
-        System.out.print(enterkey);
-
-        enterkey = readinput.nextLine();
-        System.out.print(enterkey);
-
-        if (enterkey.equals("")) {
-
-            System.out.println("In case they get a hole in one!");
-        }
+        String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+        int[] myNum = { 10, 20, 30, 40, 50 };
+        System.out.println(cars[0]);
+        System.out.println(cars.length);
+        int[][] myNumbers = { { 1, 2, 3, 4 }, { 5, 6, 7 } };
+        int x = myNumbers[1][2];
+        System.out.println(x);
 
     }
 
