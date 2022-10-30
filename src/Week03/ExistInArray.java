@@ -9,15 +9,17 @@ public class ExistInArray {
 
         Scanner reader = new Scanner(System.in);
         System.out.print("Please enter your number: ");
-        int number = Integer.parseInt(reader.nextLine());
+        int userNumber = Integer.parseInt(reader.nextLine());
+        boolean inArray = false;
 
         for (int x : numbers) {
-            if (number == x) {
-                System.out.println("In Array");
-            } else {
-                System.out.println("Not In Array");
+            if (userNumber == x) {
+                System.out.println("Your number is in the array");
+                inArray = true;
             }
-
+        }
+        if (inArray == false) {
+            System.out.println("Your number is not in the array");
         }
 
     }
