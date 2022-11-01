@@ -17,6 +17,7 @@ public class methodOverload {
         System.out.println("Maximum Value = " + result2);
     }
 
+    // Method with int parameters
     public static int maxMethod(int n1, int n2) {
         int max;
         if (n1 > n2)
@@ -26,6 +27,7 @@ public class methodOverload {
         return max;
     }
 
+    // Method with double parameters
     public static double maxMethod(double n1, double n2) {
         double max;
         if (n1 > n2)
