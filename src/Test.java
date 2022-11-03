@@ -1,15 +1,23 @@
 import java.util.Scanner;
 
 public class Test {
-    public static void main(String[] args) {
-        String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
-        int[] myNum = { 10, 20, 30, 40, 50 };
-        System.out.println(cars[0]);
-        System.out.println(cars.length);
-        int[][] myNumbers = { { 1, 2, 3, 4 }, { 5, 6, 7 } };
-        int x = myNumbers[1][2];
-        System.out.println(x);
+    // Create a checkAge() method with an integer variable called age
+    static void checkAge(int age) {
 
+        // If age is less than 18, print "Access denied"
+        if (age < 18) {
+            System.out.println("Access denied");
+
+            // If age is greater than, or equal to, 18, print "Access granted"
+        } else {
+            System.out.println("Access granted");
+        }
+
+    }
+
+    public static void main(String[] args) {
+        // Call the checkAge method and pass along an age of 20
+        checkAge(15);
     }
 
 }
