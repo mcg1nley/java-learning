@@ -5,6 +5,9 @@ public class PersonCreator {
         Person Person01 = new Person("Josh", 32, 200, 70);
         System.out.println(
                 Person01.getName() + " " + Person01.getAge() + " " + Person01.getHeight() + " " + Person01.getWeight());
+        Person01.growOlder();
+        System.out.println(
+                Person01.getName() + " " + Person01.getAge() + " " + Person01.getHeight() + " " + Person01.getWeight());
     }
 
 }
